@@ -1,0 +1,17 @@
+{
+  "name": "alpha-hq",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/madhavgharmalkar/alpha-hq.git",
+  "author": "Madhav Gharmalkar <gharmalkar.madhav@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
