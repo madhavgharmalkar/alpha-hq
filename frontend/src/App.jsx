@@ -63,7 +63,7 @@ const App = (props) => {
                     <Result 
                         deleteResult={deleteResult}
                         handleClick={updateResult}
-                        key={`aq-image-result-${index}`} 
+                        key={`aq-image-result-${value.imdbID}`} 
                         result={value} />
                 ))}
 
